@@ -82,11 +82,7 @@ button, #btn, #btn1 {
     letter-spacing: 1px;
 }
 
-button:hover, #btn:hover, #btn1:hover {
-    background: linear-gradient(90deg, #6c47ff 0%, #47e6c1 100%);
-    box-shadow: 0 4px 20px rgba(71,230,193,0.18);
-    transform: translateY(-2px) scale(1.03);
-}
+
 
 /* Chatting app spacing */
 .chattingApp {
@@ -131,22 +127,7 @@ button:hover, #btn:hover, #btn1:hover {
     clear: both;
 }
 
-/* Responsive design */
-@media (max-width: 600px) {
-    .userDetails, .chattingApp, .msgList {
-        max-width: 98vw;
-        padding: 12px;
-    }
-    h1 {
-        font-size: 1.4rem;
-        margin-top: 18px;
-        margin-bottom: 14px;
-    }
-    .msgList li, .msgList li.me {
-        font-size: 1rem;
-        padding: 10px 8px;
-    }
-}
+
 .activePeople {
     display: flex;
     flex-wrap: wrap;
@@ -176,10 +157,7 @@ button:hover, #btn:hover, #btn1:hover {
     user-select: none;
 }
 
-.activePeople div:hover {
-    background: #6c47ff;
-    box-shadow: 0 4px 16px rgba(108,71,255,0.13);
-}
+
 .AU{
     background:#e7e6ec;
     border:none;
@@ -188,9 +166,4 @@ button:hover, #btn:hover, #btn1:hover {
     max-width:420px;
     align-items: center;
     margin:auto;
-}
-.dots{
-    margin:auto;
-    align-items: center;
-    margin-bottom:20px;
 }
