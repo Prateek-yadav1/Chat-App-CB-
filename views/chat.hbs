@@ -5,12 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="/socket.io/socket.io.js"></script>
+<link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
-    <h1>chat app</h1>
+    <h1>Chat App</h1>
+    <div class="AU">
+    <h4>Active Users</h4>
+    <div class="activePeople">
+<p class="dots">●●●●●</p>
+    </div>
+    </div>
+<div class="userDetails">
+    <input placeholder="Enter Username for chat" type="text" id="username"><br>
+<button id="btn1">Enter Chat</button>
+</div>
 
-<input type="text" id="chatbox"><br>
+<div class="chattingApp hide">
+    <input type="text" id="chatbox"><br>
 <button id="btn">Send</button>
+</div>
+
+<ul class="msgList hide">
+
+</ul>
 
     <script src="/js/chat.js"></script>
 </body>
